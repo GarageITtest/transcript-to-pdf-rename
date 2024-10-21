@@ -2,6 +2,8 @@
 /wkhtmltox-0.12.6-1.msvc2015-win64.exe
 /ERCAF Transcript PDF Dump
 /Renamed ERCAF Transcript Dump
-/ERCAF Transcript PDF Dump.zip
+/ERCAF Transcript PDF Dump
 /Originals
-/Renamed ERCAF Transcript Dump.zip
+/Renamed ERCAF Transcript Dump
+/*.zip
+**/*.zip
