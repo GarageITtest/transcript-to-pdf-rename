@@ -35,7 +35,7 @@ def delete_html_files(directory):
             logging.error(f"Error deleting {html_file}: {e}")
 
 if __name__ == "__main__":
-    directory = r"C:\Documents\Repos\transcript-naming\Test-Convert-PDF"
+    directory = input("Enter the directory to scan for HTML files: ")
     if os.path.exists(directory) and os.path.isdir(directory):
         logging.info(f"Starting deletion in directory: {directory}")
         delete_html_files(directory)
